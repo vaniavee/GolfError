@@ -26,8 +26,8 @@ public class KaelApplication {
             // Create default users if none exist
             if (userRepo.count() == 0) {
                 User trainer = User.builder()
-                    .username("ash")
-                    .password("pikachu123")
+                    .username("vania")
+                    .password("kopicoklat")
                     .role(Role.USER)
                     .build();
                 userRepo.save(trainer);
